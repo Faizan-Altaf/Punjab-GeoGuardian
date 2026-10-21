@@ -12,6 +12,6 @@ pyproj==3.8.0
 scipy==1.18.1
 folium==0.20.0
 joblib==1.6.0
-pillow==13.0.0
+pillow==12.3.0
 earthengine-api==1.7.48
 requests
