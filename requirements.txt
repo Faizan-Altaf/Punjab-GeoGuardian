@@ -1,5 +1,6 @@
-﻿streamlit
-streamlit-folium
+﻿streamlit==1.66.0
+streamlit-folium==0.27.4
+altair>=5.0,<7
 numpy==2.5.4
 pandas==3.0.6
 matplotlib==3.11.2
