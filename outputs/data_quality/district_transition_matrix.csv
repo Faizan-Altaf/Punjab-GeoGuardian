@@ -1,0 +1,68 @@
+from_class,from_name,to_class,to_name,pixel_count
+4,Crops,4,Crops,9195976
+6,Built-up,6,Built-up,7291032
+4,Crops,6,Built-up,1303974
+7,Bare ground,6,Built-up,490145
+6,Built-up,4,Crops,179289
+7,Bare ground,7,Bare ground,157261
+4,Crops,7,Bare ground,152283
+0,Water,0,Water,146173
+7,Bare ground,4,Crops,92665
+0,Water,4,Crops,90738
+4,Crops,1,Trees,73536
+6,Built-up,7,Bare ground,67715
+1,Trees,1,Trees,62574
+5,Shrub and scrub,6,Built-up,62216
+4,Crops,5,Shrub and scrub,57524
+4,Crops,0,Water,55013
+0,Water,7,Bare ground,51474
+5,Shrub and scrub,5,Shrub and scrub,45010
+7,Bare ground,5,Shrub and scrub,40710
+5,Shrub and scrub,4,Crops,34503
+0,Water,6,Built-up,23005
+6,Built-up,5,Shrub and scrub,19502
+1,Trees,4,Crops,18859
+4,Crops,2,Grass,18848
+6,Built-up,1,Trees,16194
+1,Trees,6,Built-up,15015
+5,Shrub and scrub,7,Bare ground,12848
+5,Shrub and scrub,1,Trees,10119
+0,Water,5,Shrub and scrub,9178
+2,Grass,2,Grass,7779
+7,Bare ground,0,Water,7344
+6,Built-up,0,Water,7311
+3,Flooded vegetation,4,Crops,6086
+1,Trees,5,Shrub and scrub,5403
+0,Water,1,Trees,4718
+2,Grass,4,Crops,4101
+6,Built-up,2,Grass,3607
+2,Grass,6,Built-up,3463
+4,Crops,3,Flooded vegetation,3286
+0,Water,3,Flooded vegetation,3086
+1,Trees,2,Grass,2938
+3,Flooded vegetation,1,Trees,1755
+3,Flooded vegetation,0,Water,1733
+7,Bare ground,1,Trees,1361
+3,Flooded vegetation,6,Built-up,1309
+1,Trees,7,Bare ground,1258
+0,Water,2,Grass,1251
+2,Grass,1,Trees,1227
+3,Flooded vegetation,3,Flooded vegetation,1157
+3,Flooded vegetation,7,Bare ground,1138
+3,Flooded vegetation,5,Shrub and scrub,961
+5,Shrub and scrub,2,Grass,800
+7,Bare ground,2,Grass,716
+2,Grass,7,Bare ground,709
+5,Shrub and scrub,0,Water,700
+1,Trees,0,Water,564
+2,Grass,5,Shrub and scrub,358
+6,Built-up,3,Flooded vegetation,317
+7,Bare ground,3,Flooded vegetation,302
+2,Grass,3,Flooded vegetation,177
+2,Grass,0,Water,173
+8,Snow and ice,7,Bare ground,87
+1,Trees,3,Flooded vegetation,54
+3,Flooded vegetation,2,Grass,49
+0,Water,8,Snow and ice,27
+5,Shrub and scrub,3,Flooded vegetation,14
+8,Snow and ice,6,Built-up,1

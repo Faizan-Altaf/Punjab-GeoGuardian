@@ -1,0 +1,5 @@
+file,width,height,bands,crs,dtype,nodata
+features_2019,7233,5129,8,EPSG:4326,float32,
+features_2025,7233,5129,8,EPSG:4326,float32,
+labels_2019,7233,5129,1,EPSG:4326,uint8,
+labels_2025,7233,5129,1,EPSG:4326,uint8,

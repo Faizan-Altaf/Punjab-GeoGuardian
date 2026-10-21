@@ -1,0 +1,28 @@
+{
+  "project": "Punjab GeoGuardian",
+  "study_area": "Lahore District, Punjab, Pakistan",
+  "years": [
+    2019,
+    2025
+  ],
+  "data_sources": [
+    "Sentinel-2 Surface Reflectance Harmonized",
+    "Google Dynamic World land-cover labels"
+  ],
+  "checks_completed": [
+    "Raster file existence",
+    "Raster metadata and alignment",
+    "Sampled spectral value statistics",
+    "Sampled land-cover label distribution",
+    "RGB, NDVI and NDBI visual inspection",
+    "Lahore district boundary overlay"
+  ],
+  "issues_to_resolve": [
+    "Determine whether zero labels outside the district are background or genuine water",
+    "Verify Sentinel-2 reflectance scaling and band order",
+    "Verify cloud, shadow and valid-observation masking",
+    "Apply the correct district mask before area calculations",
+    "Perform independent land-cover validation before reporting change"
+  ],
+  "status": "Preprocessing diagnostics; no validated farmland-loss estimate yet"
+}

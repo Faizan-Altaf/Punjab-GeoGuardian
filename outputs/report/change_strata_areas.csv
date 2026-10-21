@@ -1,0 +1,4 @@
+Stratum,Meaning,Area (km2),% of AOI
+1,Both methods agree,28.68,1.7
+2,Dynamic World only,26.49,1.57
+3,Random Forest only,57.27,3.39

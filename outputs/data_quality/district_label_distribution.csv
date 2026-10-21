@@ -1,0 +1,19 @@
+year,class_id,class_name,pixel_count,percent
+2019,0,Water,329650,1.659
+2019,1,Trees,106665,0.537
+2019,2,Grass,17987,0.091
+2019,3,Flooded vegetation,14188,0.071
+2019,4,Crops,10860440,54.656
+2019,5,Shrub and scrub,166210,0.836
+2019,6,Built-up,7584967,38.172
+2019,7,Bare ground,790504,3.978
+2019,8,Snow and ice,88,0.0
+2025,0,Water,219011,1.102
+2025,1,Trees,171484,0.863
+2025,2,Grass,35988,0.181
+2025,3,Flooded vegetation,8393,0.042
+2025,4,Crops,9622217,48.424
+2025,5,Shrub and scrub,178646,0.899
+2025,6,Built-up,9190160,46.25
+2025,7,Bare ground,444773,2.238
+2025,8,Snow and ice,27,0.0

@@ -1,0 +1,52 @@
+﻿# Python environments and caches
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*credentials*.json
+*service-account*.json
+secrets/
+credentials/
+*.pem
+id_rsa
+
+# Large satellite imagery and generated raster files
+*.tif
+*.tiff
+*.jp2
+*.img
+*.vrt
+
+# Trained models and intermediate arrays
+*.joblib
+*.pkl
+*.pickle
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.onnx
+
+# Large derived vector output
+outputs/change_detection/change_polygons.geojson
+
+# Exclude validation predictions and obsolete placeholder
+outputs/validation/validation_points_hidden_predictions.csv
+outputs/report/error_analysis_OLD_placeholder.csv
+
+# Temporary and IDE files
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

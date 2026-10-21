@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_828d762584ba973f49e2305b7ac11551 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_828d762584ba973f49e2305b7ac11551" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_828d762584ba973f49e2305b7ac11551 = L.map(
+                "map_828d762584ba973f49e2305b7ac11551",
+                {
+                    center: [31.459249800000002, 74.43076026666668],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 10,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_3233fc584f437703f8a380139b2be537 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_3233fc584f437703f8a380139b2be537.addTo(map_828d762584ba973f49e2305b7ac11551);
+        
+    
+            var marker_0b528db0e9e72ad12b2047a4cf0451e3 = L.marker(
+                [31.622809, 74.438132],
+                {
+}
+            ).addTo(map_828d762584ba973f49e2305b7ac11551);
+        
+    
+        var popup_e1c679deb824b2bb40f97c00a9a7b79b = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_8a2bcad548c5823caef3dc8c88707f82 = $(`<div id="html_8a2bcad548c5823caef3dc8c88707f82" style="width: 100.0%; height: 100.0%;">Case ID: 1<br>Year: 2019<br>Predicted class: Trees<br>Coordinates: 31.622809, 74.438132</div>`)[0];
+                popup_e1c679deb824b2bb40f97c00a9a7b79b.setContent(html_8a2bcad548c5823caef3dc8c88707f82);
+            
+        
+
+        marker_0b528db0e9e72ad12b2047a4cf0451e3.bindPopup(popup_e1c679deb824b2bb40f97c00a9a7b79b)
+        ;
+
+        
+    
+    
+            marker_0b528db0e9e72ad12b2047a4cf0451e3.bindTooltip(
+                `<div>
+                     Point 1 — 2019
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_932fc53f4f14fcf38c2971d7fe093709 = L.marker(
+                [31.39311, 74.255325],
+                {
+}
+            ).addTo(map_828d762584ba973f49e2305b7ac11551);
+        
+    
+        var popup_27d23d41c9f23e530f3094466b6df1be = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_40847032a0fe2fef11ad295e3aeac7ea = $(`<div id="html_40847032a0fe2fef11ad295e3aeac7ea" style="width: 100.0%; height: 100.0%;">Case ID: 2<br>Year: 2019<br>Predicted class: Built-up<br>Coordinates: 31.393110, 74.255325</div>`)[0];
+                popup_27d23d41c9f23e530f3094466b6df1be.setContent(html_40847032a0fe2fef11ad295e3aeac7ea);
+            
+        
+
+        marker_932fc53f4f14fcf38c2971d7fe093709.bindPopup(popup_27d23d41c9f23e530f3094466b6df1be)
+        ;
+
+        
+    
+    
+            marker_932fc53f4f14fcf38c2971d7fe093709.bindTooltip(
+                `<div>
+                     Point 2 — 2019
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_195f4f119f43c3ad654b98a91e6e4c68 = L.marker(
+                [31.341097, 74.184179],
+                {
+}
+            ).addTo(map_828d762584ba973f49e2305b7ac11551);
+        
+    
+        var popup_e1ac1bf12bbef26a0f633f111b4ba1d7 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b37e7081e2eef5ad6983840f12557ace = $(`<div id="html_b37e7081e2eef5ad6983840f12557ace" style="width: 100.0%; height: 100.0%;">Case ID: 3<br>Year: 2019<br>Predicted class: Built-up<br>Coordinates: 31.341097, 74.184179</div>`)[0];
+                popup_e1ac1bf12bbef26a0f633f111b4ba1d7.setContent(html_b37e7081e2eef5ad6983840f12557ace);
+            
+        
+
+        marker_195f4f119f43c3ad654b98a91e6e4c68.bindPopup(popup_e1ac1bf12bbef26a0f633f111b4ba1d7)
+        ;
+
+        
+    
+    
+            marker_195f4f119f43c3ad654b98a91e6e4c68.bindTooltip(
+                `<div>
+                     Point 3 — 2019
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_a0cd68f2aee6e17dbc16fe8aca4adaa3 = L.marker(
+                [31.406674, 74.449811],
+                {
+}
+            ).addTo(map_828d762584ba973f49e2305b7ac11551);
+        
+    
+        var popup_69fd7b73f703b1986fd5cfc020a28436 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_00731bc74e6854da1bf646c88538a9c8 = $(`<div id="html_00731bc74e6854da1bf646c88538a9c8" style="width: 100.0%; height: 100.0%;">Case ID: 4<br>Year: 2019<br>Predicted class: Built-up<br>Coordinates: 31.406674, 74.449811</div>`)[0];
+                popup_69fd7b73f703b1986fd5cfc020a28436.setContent(html_00731bc74e6854da1bf646c88538a9c8);
+            
+        
+
+        marker_a0cd68f2aee6e17dbc16fe8aca4adaa3.bindPopup(popup_69fd7b73f703b1986fd5cfc020a28436)
+        ;
+
+        
+    
+    
+            marker_a0cd68f2aee6e17dbc16fe8aca4adaa3.bindTooltip(
+                `<div>
+                     Point 4 — 2019
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_d07757edcc8ac6ed3f012ddbe6656996 = L.marker(
+                [31.475845, 74.60459],
+                {
+}
+            ).addTo(map_828d762584ba973f49e2305b7ac11551);
+        
+    
+        var popup_70cc9f81bb1b358627f561f6198d1c39 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_fb456d2b0b1d24d0d080fde906d18fd6 = $(`<div id="html_fb456d2b0b1d24d0d080fde906d18fd6" style="width: 100.0%; height: 100.0%;">Case ID: 5<br>Year: 2019<br>Predicted class: Flooded vegetation<br>Coordinates: 31.475845, 74.604590</div>`)[0];
+                popup_70cc9f81bb1b358627f561f6198d1c39.setContent(html_fb456d2b0b1d24d0d080fde906d18fd6);
+            
+        
+
+        marker_d07757edcc8ac6ed3f012ddbe6656996.bindPopup(popup_70cc9f81bb1b358627f561f6198d1c39)
+        ;
+
+        
+    
+    
+            marker_d07757edcc8ac6ed3f012ddbe6656996.bindTooltip(
+                `<div>
+                     Point 5 — 2019
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_b764bde43f83e7092ff2a063c4597f59 = L.marker(
+                [31.473779, 74.560124],
+                {
+}
+            ).addTo(map_828d762584ba973f49e2305b7ac11551);
+        
+    
+        var popup_40ce24881cf17488f751872aa7d7a175 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_edc5ead8f339d44fae5581e72d54a13d = $(`<div id="html_edc5ead8f339d44fae5581e72d54a13d" style="width: 100.0%; height: 100.0%;">Case ID: 6<br>Year: 2019<br>Predicted class: Shrub/Scrub<br>Coordinates: 31.473779, 74.560124</div>`)[0];
+                popup_40ce24881cf17488f751872aa7d7a175.setContent(html_edc5ead8f339d44fae5581e72d54a13d);
+            
+        
+
+        marker_b764bde43f83e7092ff2a063c4597f59.bindPopup(popup_40ce24881cf17488f751872aa7d7a175)
+        ;
+
+        
+    
+    
+            marker_b764bde43f83e7092ff2a063c4597f59.bindTooltip(
+                `<div>
+                     Point 6 — 2019
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_ff5f3cfed9cd8a1401f88384c8efd989 = L.marker(
+                [31.621012, 74.497062],
+                {
+}
+            ).addTo(map_828d762584ba973f49e2305b7ac11551);
+        
+    
+        var popup_334730900b5012143ed2cf2e7ade67a6 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_64212b32cb5464d35a764abefe22ba8c = $(`<div id="html_64212b32cb5464d35a764abefe22ba8c" style="width: 100.0%; height: 100.0%;">Case ID: 7<br>Year: 2019<br>Predicted class: Built-up<br>Coordinates: 31.621012, 74.497062</div>`)[0];
+                popup_334730900b5012143ed2cf2e7ade67a6.setContent(html_64212b32cb5464d35a764abefe22ba8c);
+            
+        
+
+        marker_ff5f3cfed9cd8a1401f88384c8efd989.bindPopup(popup_334730900b5012143ed2cf2e7ade67a6)
+        ;
+
+        
+    
+    
+            marker_ff5f3cfed9cd8a1401f88384c8efd989.bindTooltip(
+                `<div>
+                     Point 7 — 2019
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_0ec3fd7ad4a52b84b5ab7c3ec60cd847 = L.marker(
+                [31.369125, 74.486282],
+                {
+}
+            ).addTo(map_828d762584ba973f49e2305b7ac11551);
+        
+    
+        var popup_46994b8bb19c00b359f3c192d6639a04 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_b14e4663287d3f8e68be26f184111f65 = $(`<div id="html_b14e4663287d3f8e68be26f184111f65" style="width: 100.0%; height: 100.0%;">Case ID: 8<br>Year: 2019<br>Predicted class: Grass<br>Coordinates: 31.369125, 74.486282</div>`)[0];
+                popup_46994b8bb19c00b359f3c192d6639a04.setContent(html_b14e4663287d3f8e68be26f184111f65);
+            
+        
+
+        marker_0ec3fd7ad4a52b84b5ab7c3ec60cd847.bindPopup(popup_46994b8bb19c00b359f3c192d6639a04)
+        ;
+
+        
+    
+    
+            marker_0ec3fd7ad4a52b84b5ab7c3ec60cd847.bindTooltip(
+                `<div>
+                     Point 8 — 2019
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_e0de08470e1c05793e78aa52ae1d4ea2 = L.marker(
+                [31.365532, 74.198462],
+                {
+}
+            ).addTo(map_828d762584ba973f49e2305b7ac11551);
+        
+    
+        var popup_1ef1015826bf3f09e43b22d0045af2cc = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_6bae2e7e868760164400c7bee8d26945 = $(`<div id="html_6bae2e7e868760164400c7bee8d26945" style="width: 100.0%; height: 100.0%;">Case ID: 9<br>Year: 2025<br>Predicted class: Built-up<br>Coordinates: 31.365532, 74.198462</div>`)[0];
+                popup_1ef1015826bf3f09e43b22d0045af2cc.setContent(html_6bae2e7e868760164400c7bee8d26945);
+            
+        
+
+        marker_e0de08470e1c05793e78aa52ae1d4ea2.bindPopup(popup_1ef1015826bf3f09e43b22d0045af2cc)
+        ;
+
+        
+    
+    
+            marker_e0de08470e1c05793e78aa52ae1d4ea2.bindTooltip(
+                `<div>
+                     Point 9 — 2025
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_9a4d25f833b503907bdf4dbba6b605b8 = L.marker(
+                [31.469736, 74.395193],
+                {
+}
+            ).addTo(map_828d762584ba973f49e2305b7ac11551);
+        
+    
+        var popup_14e6576aece80ac969b53119de9e266c = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_bf07bd04f528ed3e69d5ff77265844d6 = $(`<div id="html_bf07bd04f528ed3e69d5ff77265844d6" style="width: 100.0%; height: 100.0%;">Case ID: 10<br>Year: 2025<br>Predicted class: Built-up<br>Coordinates: 31.469736, 74.395193</div>`)[0];
+                popup_14e6576aece80ac969b53119de9e266c.setContent(html_bf07bd04f528ed3e69d5ff77265844d6);
+            
+        
+
+        marker_9a4d25f833b503907bdf4dbba6b605b8.bindPopup(popup_14e6576aece80ac969b53119de9e266c)
+        ;
+
+        
+    
+    
+            marker_9a4d25f833b503907bdf4dbba6b605b8.bindTooltip(
+                `<div>
+                     Point 10 — 2025
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_df76a5f4f12641f551c88fc3323ab3f7 = L.marker(
+                [31.498572, 74.573329],
+                {
+}
+            ).addTo(map_828d762584ba973f49e2305b7ac11551);
+        
+    
+        var popup_902e9673c8f8126f921d356edb2610f5 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_999a0f0a92f3dbf6274400e7ac66d24b = $(`<div id="html_999a0f0a92f3dbf6274400e7ac66d24b" style="width: 100.0%; height: 100.0%;">Case ID: 11<br>Year: 2025<br>Predicted class: Flooded vegetation<br>Coordinates: 31.498572, 74.573329</div>`)[0];
+                popup_902e9673c8f8126f921d356edb2610f5.setContent(html_999a0f0a92f3dbf6274400e7ac66d24b);
+            
+        
+
+        marker_df76a5f4f12641f551c88fc3323ab3f7.bindPopup(popup_902e9673c8f8126f921d356edb2610f5)
+        ;
+
+        
+    
+    
+            marker_df76a5f4f12641f551c88fc3323ab3f7.bindTooltip(
+                `<div>
+                     Point 11 — 2025
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_434c2439643719965e58daf111286c50 = L.marker(
+                [31.60116, 74.426544],
+                {
+}
+            ).addTo(map_828d762584ba973f49e2305b7ac11551);
+        
+    
+        var popup_9064614d06cf273522d4225fcbc56b74 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_25fd39c13b6e76077b252f870f29722e = $(`<div id="html_25fd39c13b6e76077b252f870f29722e" style="width: 100.0%; height: 100.0%;">Case ID: 12<br>Year: 2025<br>Predicted class: Built-up<br>Coordinates: 31.601160, 74.426544</div>`)[0];
+                popup_9064614d06cf273522d4225fcbc56b74.setContent(html_25fd39c13b6e76077b252f870f29722e);
+            
+        
+
+        marker_434c2439643719965e58daf111286c50.bindPopup(popup_9064614d06cf273522d4225fcbc56b74)
+        ;
+
+        
+    
+    
+            marker_434c2439643719965e58daf111286c50.bindTooltip(
+                `<div>
+                     Point 12 — 2025
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_75760ee82e3a293cb585d24558ab77b6 = L.marker(
+                [31.348014, 74.265746],
+                {
+}
+            ).addTo(map_828d762584ba973f49e2305b7ac11551);
+        
+    
+        var popup_28a5dbb6df02890744348e77fc531c1d = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_091ce5c2c5bdebb741567c73712d59d7 = $(`<div id="html_091ce5c2c5bdebb741567c73712d59d7" style="width: 100.0%; height: 100.0%;">Case ID: 13<br>Year: 2025<br>Predicted class: Built-up<br>Coordinates: 31.348014, 74.265746</div>`)[0];
+                popup_28a5dbb6df02890744348e77fc531c1d.setContent(html_091ce5c2c5bdebb741567c73712d59d7);
+            
+        
+
+        marker_75760ee82e3a293cb585d24558ab77b6.bindPopup(popup_28a5dbb6df02890744348e77fc531c1d)
+        ;
+
+        
+    
+    
+            marker_75760ee82e3a293cb585d24558ab77b6.bindTooltip(
+                `<div>
+                     Point 13 — 2025
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_4f1b81ea907315a4479fb700530e5bca = L.marker(
+                [31.453207, 74.626958],
+                {
+}
+            ).addTo(map_828d762584ba973f49e2305b7ac11551);
+        
+    
+        var popup_7248fded1647242e310df9450b1954f4 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_1d36a488fead8760e7694e59e7228822 = $(`<div id="html_1d36a488fead8760e7694e59e7228822" style="width: 100.0%; height: 100.0%;">Case ID: 14<br>Year: 2025<br>Predicted class: Crops<br>Coordinates: 31.453207, 74.626958</div>`)[0];
+                popup_7248fded1647242e310df9450b1954f4.setContent(html_1d36a488fead8760e7694e59e7228822);
+            
+        
+
+        marker_4f1b81ea907315a4479fb700530e5bca.bindPopup(popup_7248fded1647242e310df9450b1954f4)
+        ;
+
+        
+    
+    
+            marker_4f1b81ea907315a4479fb700530e5bca.bindTooltip(
+                `<div>
+                     Point 14 — 2025
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+    
+            var marker_7fb25e9e8c1e992518b88012f11a2311 = L.marker(
+                [31.449075, 74.499667],
+                {
+}
+            ).addTo(map_828d762584ba973f49e2305b7ac11551);
+        
+    
+        var popup_8ca9845e8d481f7fde28502380b44008 = L.popup({
+  "maxWidth": 300,
+});
+
+        
+            
+                var html_4f72d78913cadd58050a99ff330f6aaa = $(`<div id="html_4f72d78913cadd58050a99ff330f6aaa" style="width: 100.0%; height: 100.0%;">Case ID: 15<br>Year: 2025<br>Predicted class: Shrub/Scrub<br>Coordinates: 31.449075, 74.499667</div>`)[0];
+                popup_8ca9845e8d481f7fde28502380b44008.setContent(html_4f72d78913cadd58050a99ff330f6aaa);
+            
+        
+
+        marker_7fb25e9e8c1e992518b88012f11a2311.bindPopup(popup_8ca9845e8d481f7fde28502380b44008)
+        ;
+
+        
+    
+    
+            marker_7fb25e9e8c1e992518b88012f11a2311.bindTooltip(
+                `<div>
+                     Point 15 — 2025
+                 </div>`,
+                {
+  "sticky": true,
+}
+            );
+        
+</script>
+</html>

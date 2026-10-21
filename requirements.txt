@@ -1,0 +1,13 @@
+numpy==2.5.4
+pandas==3.0.6
+matplotlib==3.11.2
+rasterio==1.5.2
+scikit-learn==1.9.1
+geopandas==1.2.0
+shapely==2.2.0
+pyproj==3.8.0
+scipy==1.18.1
+folium==0.20.0
+joblib==1.6.0
+pillow==13.0.0
+earthengine-api==1.7.48
