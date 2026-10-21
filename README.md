@@ -2,7 +2,6 @@
 
 **AI-based monitoring of urban expansion and farmland loss in Lahore District (2019 vs 2025) using Sentinel-2 satellite imagery.**
 
-Built for *AIRI Team PITB - AI Internship Task 3*. This is a **learning prototype**, not an official government monitoring system. All results are *estimated* or *possible* change and have **not** been field-verified.
 
 ![Detected change](images/09_Change_detection.png)
 
