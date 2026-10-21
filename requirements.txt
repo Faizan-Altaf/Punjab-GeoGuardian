@@ -1,3 +1,5 @@
+﻿streamlit
+streamlit-folium
 numpy==2.5.4
 pandas==3.0.6
 matplotlib==3.11.2
@@ -11,3 +13,4 @@ folium==0.20.0
 joblib==1.6.0
 pillow==13.0.0
 earthengine-api==1.7.48
+requests
